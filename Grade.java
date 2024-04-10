@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class Grade{
 	
 	public static void main(String [] args){
@@ -11,13 +12,14 @@ class Grade{
 		System.out.println("Fail");
 	}
 	else if (num>=31&&num<=59){
-		System.out.println("Secont");
+		System.out.println("Secnd");
 	}
-	else if (num>=60&&num<=100);{
-		System.out.println("First")
+	else if (num>=60&&num<=100){
+		System.out.println("First");
 	}
 
-	else{
+	else
+	{
 		System.out.println("Invalid num");
 	}
 
